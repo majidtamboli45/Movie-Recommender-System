@@ -60,3 +60,34 @@ The system analyzes movie metadata such as genres, cast, crew, keywords, and ove
 ---
 
 ## 📂 Project Structure
+
+movie-recommender-system/
+│
+├── app.py
+├── movies.pkl
+├── requirements.txt
+├── README.md
+
+
+> The similarity matrix file is hosted externally due to GitHub file size limitations and is automatically downloaded during app startup.
+
+---
+
+## ⚙️ Run Locally
+
+```bash
+git clone https://github.com/your-username/movie-recommender-system.git
+cd movie-recommender-system
+pip install -r requirements.txt
+streamlit run app.py
+📈 Future Improvements
+
+Add movie posters using TMDB API
+
+Add search-based recommendations
+
+Implement collaborative filtering
+
+Improve UI/UX design
+
+Optimize similarity computation for faster loading
