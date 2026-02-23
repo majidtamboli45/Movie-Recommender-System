@@ -91,3 +91,4 @@ Implement collaborative filtering
 Improve UI/UX design
 
 Optimize similarity computation for faster loading
+It Is The First Fully Developed Project By me
